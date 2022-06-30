@@ -31,3 +31,11 @@ console.log(gridSectionNode);
 gridSectionNode.forEach(function(item, index){
   console.log(item);
 });
+
+const arrayGrid = Array.from(gridSectionHTML);
+console.log(gridSectionHTML);
+
+arrayGrid.forEach(function(item){
+  console.log(item)
+});
+
